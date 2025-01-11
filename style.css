@@ -2,7 +2,7 @@ body {
     margin: 430px;
     width: 30vw;
     height: 20vh;
-    background-image: url(../img/bild.jpg);
+    background: ("img/bild.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
