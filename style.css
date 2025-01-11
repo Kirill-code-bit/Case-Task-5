@@ -1,6 +1,10 @@
 body {
-    margin: 0;
-    min-width: 250px;
+    margin: 430px;
+    width: 30vw;
+    height: 20vh;
+    background-image: url(../img/bild.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Include the padding and border in an element's total width and height */
@@ -13,7 +17,6 @@ ul {
   margin: 0;
   padding: 0;
 }
-
 /* Style the list items */
 ul li {
   cursor: pointer;
@@ -21,6 +24,7 @@ ul li {
   padding: 12px 8px 12px 40px;
   list-style-type: none;
   background: #eee;
+  margin-left: 200px;
   font-size: 18px;
   transition: 0.2s;
   
@@ -34,6 +38,7 @@ ul li {
 /* Set all odd list items to a different color (zebra-stripes) */
 ul li:nth-child(odd) {
   background: #f9f9f9;
+  margin-left: 200px;
 }
 
 /* Darker background-color on hover */
@@ -79,8 +84,10 @@ ul li.checked::before {
 .header {
   background-color: #4fa8e4;
   padding: 30px 40px;
+  margin-left: 200px;
   color: white;
   text-align: center;
+  position: relative;
 }
 
 /* Clear floats after the header */
